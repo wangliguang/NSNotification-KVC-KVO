@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C6720BA71C6DDF0A006AA0FE /* Parent.m in Sources */ = {isa = PBXBuildFile; fileRef = C6720BA61C6DDF0A006AA0FE /* Parent.m */; };
+		C6720BAA1C6DDF1B006AA0FE /* Children.m in Sources */ = {isa = PBXBuildFile; fileRef = C6720BA91C6DDF1B006AA0FE /* Children.m */; };
+		C6720BAD1C6E2D27006AA0FE /* KVOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6720BAC1C6E2D27006AA0FE /* KVOViewController.m */; };
+		C6F51D731C4F7DB000DBF081 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F51D721C4F7DB000DBF081 /* main.m */; };
+		C6F51D761C4F7DB000DBF081 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F51D751C4F7DB000DBF081 /* AppDelegate.m */; };
+		C6F51D791C4F7DB000DBF081 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F51D781C4F7DB000DBF081 /* ViewController.m */; };
+		C6F51D7C1C4F7DB000DBF081 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6F51D7A1C4F7DB000DBF081 /* Main.storyboard */; };
+		C6F51D7E1C4F7DB000DBF081 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6F51D7D1C4F7DB000DBF081 /* Assets.xcassets */; };
+		C6F51D811C4F7DB000DBF081 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6F51D7F1C4F7DB000DBF081 /* LaunchScreen.storyboard */; };
+		C6F51DA71C4F7F9100DBF081 /* NSNotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F51DA61C4F7F9100DBF081 /* NSNotificationViewController.m */; };
+		C6F51DBC1C4F999B00DBF081 /* KVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F51DBB1C4F999B00DBF081 /* KVCViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C6F51D881C4F7DB000DBF081 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6F51D661C4F7DB000DBF081 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6F51D6D1C4F7DB000DBF081;
+			remoteInfo = "NSNotification、KVC、KVO";
+		};
+		C6F51D931C4F7DB000DBF081 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6F51D661C4F7DB000DBF081 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6F51D6D1C4F7DB000DBF081;
+			remoteInfo = "NSNotification、KVC、KVO";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C6720BA51C6DDF0A006AA0FE /* Parent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Parent.h; sourceTree = "<group>"; };
+		C6720BA61C6DDF0A006AA0FE /* Parent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Parent.m; sourceTree = "<group>"; };
+		C6720BA81C6DDF1B006AA0FE /* Children.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Children.h; sourceTree = "<group>"; };
+		C6720BA91C6DDF1B006AA0FE /* Children.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Children.m; sourceTree = "<group>"; };
+		C6720BAB1C6E2D27006AA0FE /* KVOViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVOViewController.h; sourceTree = "<group>"; };
+		C6720BAC1C6E2D27006AA0FE /* KVOViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVOViewController.m; sourceTree = "<group>"; };
+		C6F51D6E1C4F7DB000DBF081 /* NSNotification、KVC、KVO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NSNotification、KVC、KVO.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6F51D721C4F7DB000DBF081 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C6F51D741C4F7DB000DBF081 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C6F51D751C4F7DB000DBF081 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C6F51D771C4F7DB000DBF081 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C6F51D781C4F7DB000DBF081 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C6F51D7B1C4F7DB000DBF081 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C6F51D7D1C4F7DB000DBF081 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C6F51D801C4F7DB000DBF081 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C6F51D821C4F7DB000DBF081 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6F51D871C4F7DB000DBF081 /* NSNotification、KVC、KVOTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NSNotification、KVC、KVOTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6F51D921C4F7DB000DBF081 /* NSNotification、KVC、KVOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NSNotification、KVC、KVOUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6F51DA41C4F7E8D00DBF081 /* Index.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Index.pch; sourceTree = "<group>"; };
+		C6F51DA51C4F7F9100DBF081 /* NSNotificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSNotificationViewController.h; sourceTree = "<group>"; };
+		C6F51DA61C4F7F9100DBF081 /* NSNotificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSNotificationViewController.m; sourceTree = "<group>"; };
+		C6F51DBA1C4F999B00DBF081 /* KVCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVCViewController.h; sourceTree = "<group>"; };
+		C6F51DBB1C4F999B00DBF081 /* KVCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVCViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6F51D6B1C4F7DB000DBF081 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6F51D841C4F7DB000DBF081 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6F51D8F1C4F7DB000DBF081 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C6F51D651C4F7DB000DBF081 = {
+			isa = PBXGroup;
+			children = (
+				C6F51D701C4F7DB000DBF081 /* NSNotification、KVC、KVO */,
+				C6F51D6F1C4F7DB000DBF081 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C6F51D6F1C4F7DB000DBF081 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6F51D6E1C4F7DB000DBF081 /* NSNotification、KVC、KVO.app */,
+				C6F51D871C4F7DB000DBF081 /* NSNotification、KVC、KVOTests.xctest */,
+				C6F51D921C4F7DB000DBF081 /* NSNotification、KVC、KVOUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6F51D701C4F7DB000DBF081 /* NSNotification、KVC、KVO */ = {
+			isa = PBXGroup;
+			children = (
+				C6F51D741C4F7DB000DBF081 /* AppDelegate.h */,
+				C6F51D751C4F7DB000DBF081 /* AppDelegate.m */,
+				C6F51D771C4F7DB000DBF081 /* ViewController.h */,
+				C6F51D781C4F7DB000DBF081 /* ViewController.m */,
+				C6F51DA51C4F7F9100DBF081 /* NSNotificationViewController.h */,
+				C6F51DA61C4F7F9100DBF081 /* NSNotificationViewController.m */,
+				C6F51DBA1C4F999B00DBF081 /* KVCViewController.h */,
+				C6F51DBB1C4F999B00DBF081 /* KVCViewController.m */,
+				C6720BA51C6DDF0A006AA0FE /* Parent.h */,
+				C6720BA61C6DDF0A006AA0FE /* Parent.m */,
+				C6720BA81C6DDF1B006AA0FE /* Children.h */,
+				C6720BA91C6DDF1B006AA0FE /* Children.m */,
+				C6720BAB1C6E2D27006AA0FE /* KVOViewController.h */,
+				C6720BAC1C6E2D27006AA0FE /* KVOViewController.m */,
+				C6F51D7A1C4F7DB000DBF081 /* Main.storyboard */,
+				C6F51D7D1C4F7DB000DBF081 /* Assets.xcassets */,
+				C6F51D7F1C4F7DB000DBF081 /* LaunchScreen.storyboard */,
+				C6F51D821C4F7DB000DBF081 /* Info.plist */,
+				C6F51D711C4F7DB000DBF081 /* Supporting Files */,
+			);
+			path = "NSNotification、KVC、KVO";
+			sourceTree = "<group>";
+		};
+		C6F51D711C4F7DB000DBF081 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C6F51D721C4F7DB000DBF081 /* main.m */,
+				C6F51DA41C4F7E8D00DBF081 /* Index.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6F51D6D1C4F7DB000DBF081 /* NSNotification、KVC、KVO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6F51D9B1C4F7DB000DBF081 /* Build configuration list for PBXNativeTarget "NSNotification、KVC、KVO" */;
+			buildPhases = (
+				C6F51D6A1C4F7DB000DBF081 /* Sources */,
+				C6F51D6B1C4F7DB000DBF081 /* Frameworks */,
+				C6F51D6C1C4F7DB000DBF081 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NSNotification、KVC、KVO";
+			productName = "NSNotification、KVC、KVO";
+			productReference = C6F51D6E1C4F7DB000DBF081 /* NSNotification、KVC、KVO.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C6F51D861C4F7DB000DBF081 /* NSNotification、KVC、KVOTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6F51D9E1C4F7DB000DBF081 /* Build configuration list for PBXNativeTarget "NSNotification、KVC、KVOTests" */;
+			buildPhases = (
+				C6F51D831C4F7DB000DBF081 /* Sources */,
+				C6F51D841C4F7DB000DBF081 /* Frameworks */,
+				C6F51D851C4F7DB000DBF081 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6F51D891C4F7DB000DBF081 /* PBXTargetDependency */,
+			);
+			name = "NSNotification、KVC、KVOTests";
+			productName = "NSNotification、KVC、KVOTests";
+			productReference = C6F51D871C4F7DB000DBF081 /* NSNotification、KVC、KVOTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C6F51D911C4F7DB000DBF081 /* NSNotification、KVC、KVOUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6F51DA11C4F7DB000DBF081 /* Build configuration list for PBXNativeTarget "NSNotification、KVC、KVOUITests" */;
+			buildPhases = (
+				C6F51D8E1C4F7DB000DBF081 /* Sources */,
+				C6F51D8F1C4F7DB000DBF081 /* Frameworks */,
+				C6F51D901C4F7DB000DBF081 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6F51D941C4F7DB000DBF081 /* PBXTargetDependency */,
+			);
+			name = "NSNotification、KVC、KVOUITests";
+			productName = "NSNotification、KVC、KVOUITests";
+			productReference = C6F51D921C4F7DB000DBF081 /* NSNotification、KVC、KVOUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6F51D661C4F7DB000DBF081 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "王立广";
+				TargetAttributes = {
+					C6F51D6D1C4F7DB000DBF081 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 5A37P86775;
+					};
+					C6F51D861C4F7DB000DBF081 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 5A37P86775;
+						TestTargetID = C6F51D6D1C4F7DB000DBF081;
+					};
+					C6F51D911C4F7DB000DBF081 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 5A37P86775;
+						TestTargetID = C6F51D6D1C4F7DB000DBF081;
+					};
+				};
+			};
+			buildConfigurationList = C6F51D691C4F7DB000DBF081 /* Build configuration list for PBXProject "NSNotification、KVC、KVO" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C6F51D651C4F7DB000DBF081;
+			productRefGroup = C6F51D6F1C4F7DB000DBF081 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6F51D6D1C4F7DB000DBF081 /* NSNotification、KVC、KVO */,
+				C6F51D861C4F7DB000DBF081 /* NSNotification、KVC、KVOTests */,
+				C6F51D911C4F7DB000DBF081 /* NSNotification、KVC、KVOUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6F51D6C1C4F7DB000DBF081 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6F51D811C4F7DB000DBF081 /* LaunchScreen.storyboard in Resources */,
+				C6F51D7E1C4F7DB000DBF081 /* Assets.xcassets in Resources */,
+				C6F51D7C1C4F7DB000DBF081 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6F51D851C4F7DB000DBF081 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6F51D901C4F7DB000DBF081 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6F51D6A1C4F7DB000DBF081 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6F51DBC1C4F999B00DBF081 /* KVCViewController.m in Sources */,
+				C6F51DA71C4F7F9100DBF081 /* NSNotificationViewController.m in Sources */,
+				C6F51D791C4F7DB000DBF081 /* ViewController.m in Sources */,
+				C6720BAA1C6DDF1B006AA0FE /* Children.m in Sources */,
+				C6F51D761C4F7DB000DBF081 /* AppDelegate.m in Sources */,
+				C6720BAD1C6E2D27006AA0FE /* KVOViewController.m in Sources */,
+				C6F51D731C4F7DB000DBF081 /* main.m in Sources */,
+				C6720BA71C6DDF0A006AA0FE /* Parent.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6F51D831C4F7DB000DBF081 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6F51D8E1C4F7DB000DBF081 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C6F51D891C4F7DB000DBF081 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6F51D6D1C4F7DB000DBF081 /* NSNotification、KVC、KVO */;
+			targetProxy = C6F51D881C4F7DB000DBF081 /* PBXContainerItemProxy */;
+		};
+		C6F51D941C4F7DB000DBF081 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6F51D6D1C4F7DB000DBF081 /* NSNotification、KVC、KVO */;
+			targetProxy = C6F51D931C4F7DB000DBF081 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C6F51D7A1C4F7DB000DBF081 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6F51D7B1C4F7DB000DBF081 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C6F51D7F1C4F7DB000DBF081 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6F51D801C4F7DB000DBF081 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C6F51D991C4F7DB000DBF081 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C6F51D9A1C4F7DB000DBF081 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C6F51D9C1C4F7DB000DBF081 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "NSNotification、KVC、KVO/Index.pch";
+				INFOPLIST_FILE = "NSNotification、KVC、KVO/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.----.NSNotification-KVC-KVO";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C6F51D9D1C4F7DB000DBF081 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "NSNotification、KVC、KVO/Index.pch";
+				INFOPLIST_FILE = "NSNotification、KVC、KVO/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.----.NSNotification-KVC-KVO";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C6F51D9F1C4F7DB000DBF081 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "NSNotification、KVC、KVOTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.----.NSNotification-KVC-KVOTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NSNotification、KVC、KVO.app/NSNotification、KVC、KVO";
+			};
+			name = Debug;
+		};
+		C6F51DA01C4F7DB000DBF081 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "NSNotification、KVC、KVOTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.----.NSNotification-KVC-KVOTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NSNotification、KVC、KVO.app/NSNotification、KVC、KVO";
+			};
+			name = Release;
+		};
+		C6F51DA21C4F7DB000DBF081 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "NSNotification、KVC、KVOUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.----.NSNotification-KVC-KVOUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "NSNotification、KVC、KVO";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C6F51DA31C4F7DB000DBF081 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "NSNotification、KVC、KVOUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.----.NSNotification-KVC-KVOUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "NSNotification、KVC、KVO";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6F51D691C4F7DB000DBF081 /* Build configuration list for PBXProject "NSNotification、KVC、KVO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6F51D991C4F7DB000DBF081 /* Debug */,
+				C6F51D9A1C4F7DB000DBF081 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6F51D9B1C4F7DB000DBF081 /* Build configuration list for PBXNativeTarget "NSNotification、KVC、KVO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6F51D9C1C4F7DB000DBF081 /* Debug */,
+				C6F51D9D1C4F7DB000DBF081 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6F51D9E1C4F7DB000DBF081 /* Build configuration list for PBXNativeTarget "NSNotification、KVC、KVOTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6F51D9F1C4F7DB000DBF081 /* Debug */,
+				C6F51DA01C4F7DB000DBF081 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6F51DA11C4F7DB000DBF081 /* Build configuration list for PBXNativeTarget "NSNotification、KVC、KVOUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6F51DA21C4F7DB000DBF081 /* Debug */,
+				C6F51DA31C4F7DB000DBF081 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C6F51D661C4F7DB000DBF081 /* Project object */;
+}
